@@ -16,4 +16,4 @@ Using Blender:
 
 I have been using Visual Micro, and have no idea if this works in the Arduino IDE.
 
-![alt text](http://(https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)
+![alt text](https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)
