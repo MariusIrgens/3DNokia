@@ -14,12 +14,13 @@ void setup() {
 	// Initialize serial communication at 9600 baud
 	Serial.begin(9600);
 
-	//Initialize Display
+	// Initialize Display
 	renderer.display.begin();
 
-	// you can change the contrast around to adapt the display for the best viewing!
+	// You can change the contrast around to adapt the display for the best viewing!
 	renderer.display.setContrast(57);
 
+	// Load model into memory
 	model.loadModel();
 }
 
@@ -29,6 +30,5 @@ void loop() {
 	model.rotate(1.0f);
 	renderer.draw(model);
 	renderer.endFrame();
-
 }
 

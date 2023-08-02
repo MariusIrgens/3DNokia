@@ -1,3 +1,5 @@
+// This class contains all drawing related functions and matrices.
+
 #pragma once
 #include <ArduinoEigenSparse.h>
 #include <ArduinoEigenDense.h>

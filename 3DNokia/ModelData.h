@@ -1,9 +1,12 @@
+// This class is basically just a text file containing .obj information as a string. It is discarded after loading it into the triangle list in Model.cpp.
+
 #pragma once
 class ModelData
 {
 public:
 	ModelData();
 
+	// Replace this with .obj text content (remember to triangulate the mesh such that faces only contains 3 vertices).
 	const char* objData = R"(
 # Blender v3.2.0 OBJ File: 'models.blend'
 # www.blender.org

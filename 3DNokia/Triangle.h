@@ -1,3 +1,5 @@
+// More struct than class really. Each triangle contains three 3D points. More information could be added though, like color or normal related stuff.
+
 #pragma once
 #include <ArduinoEigenSparse.h>
 #include <ArduinoEigenDense.h>

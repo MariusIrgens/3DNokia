@@ -1,3 +1,5 @@
+// This class contains the model matrix, functionality and data (as a vector list of triangles)
+
 #pragma once
 #include <ArduinoEigenSparse.h>
 #include <ArduinoEigenDense.h>

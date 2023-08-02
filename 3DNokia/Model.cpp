@@ -53,5 +53,4 @@ void Model::loadModel()
 			triangles.push_back(Triangle(vertices[indices[0]], vertices[indices[1]], vertices[indices[2]]));
 		}
 	}
-
 }

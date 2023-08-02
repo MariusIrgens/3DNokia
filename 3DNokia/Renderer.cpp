@@ -14,7 +14,6 @@ Renderer::Renderer()
 	float nearClip = 0.1f; // Near Clipping Plane
 	float farClip = 100.0f; // Far Clipping Plane
 	projection = perspective(fov, aspectRatio, nearClip, farClip);
-
 }
 
 void Renderer::drawTriangle(Eigen::Vector3f p1, Eigen::Vector3f p2, Eigen::Vector3f p3,
@@ -52,7 +51,6 @@ void Renderer::drawTriangle(Eigen::Vector3f p1, Eigen::Vector3f p2, Eigen::Vecto
 			return;
 		}
 	}
-
 
 	// 3. Projection transform
 	p1Homogeneous = projection * p1Homogeneous;
@@ -137,11 +135,9 @@ void Renderer::endFrame()
 
 void Renderer::draw(const Model& model)
 {
-
-	// For each triangle in vector<triangles>
+	// Draw each triangle
 	for (const Triangle& triangle : model.triangles)
 	{
 		drawTriangle(triangle.A, triangle.B, triangle.C, model.model, view, projection);
 	}
-
 }
