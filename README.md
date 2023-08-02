@@ -14,6 +14,6 @@ Using Blender:
 4. Copy the text (there should be vertices (v) and triangle faces (f).
 5. Paste and replace the contents of objData.
 
-I have been using Visual Micro, and have no idea if this works in the Arduino IDE.
+I have been using Visual Micro, but it should work fine with the Arduino IDE as well.
 
 ![alt text](https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)
