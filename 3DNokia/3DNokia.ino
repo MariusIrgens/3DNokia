@@ -1,3 +1,5 @@
+// By Marius Irgens Aug.08 2023
+
 #include <ArduinoEigenSparse.h>
 #include <ArduinoEigenDense.h>
 #include <ArduinoEigen.h>
