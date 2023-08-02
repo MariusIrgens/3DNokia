@@ -1,4 +1,4 @@
-# 3DNokia
+# 3D Nokia
 
 A super simple "3D engine" (if you want to call it that) for Teensy 4.1, that can display a .obj file. 
 It uses the "draw triangle" method of Adafruits GFX library, and should be compatible with any display that can use that library (not only the Nokia display).
