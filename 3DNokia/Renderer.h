@@ -34,8 +34,8 @@ public:
 	Eigen::Matrix4f projection;
 
 private:
-	const unsigned long frameTime = 1000 / 30; // last number is frames per second
+	const unsigned long frameTime = 1000 / 15; // last number is frames per second
 	unsigned long lastFrameTime = 0;
-	bool cullBackfaces = false;
+	bool cullBackfaces = true;
 
 };

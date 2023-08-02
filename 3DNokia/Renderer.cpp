@@ -3,7 +3,7 @@
 Renderer::Renderer()
 {
 	// View Matrix
-	Eigen::Vector3f eye(0, 0, -2); // Camera Position
+	Eigen::Vector3f eye(0, 0, -3); // Camera Position
 	Eigen::Vector3f center(0, 0, 0); // Look At Point
 	Eigen::Vector3f up(0, 1, 0); // Up Vector
 	view = lookAt(eye, center, up);
