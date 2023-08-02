@@ -2,7 +2,7 @@
 
 A super simple "3D engine" (if you want to call it that) for Teensy 4.1, that can display a .obj file. 
 It uses the "draw triangle" method of Adafruits GFX library, and should be compatible with any display that can use that library (not only the Nokia display).
-It also uses the Eigen library for all vector and matrix maths.
+It uses the Eigen library for all vector and matrix maths.
 The result is simple wireframe drawings with backface culling.
 
 To load your own .obj file, replace the contents of the const char* objData in ModelData.h with your own vertex and triangle data.
