@@ -15,3 +15,5 @@ Using Blender:
 5. Paste and replace the contents of objData.
 
 I have been using Visual Micro, and have no idea if this works in the Arduino IDE.
+
+![alt text](http://(https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)
