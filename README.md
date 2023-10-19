@@ -11,7 +11,7 @@ Using Blender:
 1. Triangulate your mesh.
 2. Export as .obj, with all options in "Geometry" off (Apply Modifiers is ok).
 3. Open .obj file in notepad++ (or similar).
-4. Copy the text (there should be vertices (v) and triangle faces (f).
+4. Copy the text - there should be vertices (v) and triangle faces (f).
 5. Paste and replace the contents of objData.
 
 I have been using Visual Micro, but it should work fine with the Arduino IDE as well.
