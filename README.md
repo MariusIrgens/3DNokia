@@ -8,12 +8,14 @@ The result is simple wireframe drawings with backface culling.
 To load your own .obj file, replace the contents of the const char* objData in ModelData.h with your own vertex and triangle data.
 
 Using Blender:
-1. Triangulate your mesh.
-2. Export as .obj, with all options in "Geometry" off (Apply Modifiers is ok).
-3. Open .obj file in notepad++ (or similar).
-4. Copy the text - there should be vertices (v) and triangle faces (f).
-5. Paste and replace the contents of objData.
+- Triangulate your mesh.
+- Export as .obj, with all options in "Geometry" off (Apply Modifiers is ok).
+- Open .obj file in notepad++ (or similar).
+- Copy the text - there should be vertices (v) and triangle faces (f).
+- Paste and replace the contents of objData.
 
 I have been using Visual Micro, but it should work fine with the Arduino IDE as well.
 
-![alt text](https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)
+Demo video: https://youtube.com/shorts/gDONj2lC7E0?si=NdXF0rYeKeYNAT8N
+
+![alt text](https://github.com/MariusIrgens/3DNokia/blob/master/3DNokia/Circuit.jpg)
